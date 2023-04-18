@@ -1,7 +1,8 @@
 {
     "name": "convertiv/composer-wordpress",
     "type": "composer-plugin",
-    "version": "0.1.0",
+    "version": "0.1.1",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "ComposerWordPress\\": "src/"
