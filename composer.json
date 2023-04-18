@@ -1,8 +1,15 @@
 {
     "name": "convertiv/composer-wordpress",
     "type": "composer-plugin",
-    "version": "0.1.1",
+    "description": "This library fills a gap when using wordpress with composer. Previously, packages like Drupal's preserve paths composer plugin closed this gap, but with Composer 2's parallel operations, preserve paths creates a race condition.",
     "license": "MIT",
+    "authors": [
+        {
+            "name": "Dino Kraljevic",
+            "email": "dino@convertiv.com",
+            "homepage": "https://convertiv.com"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "ComposerWordPress\\": "src/"
