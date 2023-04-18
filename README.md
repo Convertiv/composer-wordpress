@@ -14,7 +14,7 @@ Add the following configuration to your `composer.json` file:
    "extra": {
         "wordpress-install-dir": "public/",
         "composer-custom-install-path-src": "bin/composer_wordpress_vendor/wp-content",
-        "composer-custom-install-path-dest": "public/wp-content/",
+        "composer-custom-install-path-dest": "public/wp-content",
         "installer-paths": {
             "bin/composer_wordpress_vendor/wp-content/plugins/{$name}/": [
                 "type:wordpress-plugin"
