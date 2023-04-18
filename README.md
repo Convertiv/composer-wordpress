@@ -38,23 +38,9 @@ The composer-custom-install-path-src key defines the path to the source director
 
 The plugin will automatically run during the post-install-cmd and post-update-cmd events, and will copy the WordPress packages from the source path to the destination path.
 
-## 2. In your project's composer.json file, add the following to the repositories section to tell Composer about the Bitbucket repository:
-
+## 2. Run the following command to install the plugin:
 ```
-{
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "git@bitbucket.org:convertiv-dev/composer-wordpress.git",
-            "version": "dev-master"
-        }
-    ]
-}
-```
-
-## 3. Run the following command to install the plugin:
-```
-composer require convertiv/composer-wordpress:dev-master
+composer require convertiv/composer-wordpress
 ```
 Composer installer will ask whether you trust the plugin:
 
@@ -72,7 +58,6 @@ If you used bin/composer_wordpress_vendor/wp-content as the path, add the follow
 ```
 bin/composer_wordpress_vendor
 ```
-
 
 License
 This plugin is licensed under the MIT License. For more information, see the [LICENCE](LICENCE) file.
